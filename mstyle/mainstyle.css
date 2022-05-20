@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+ul, li, ol {list-style: none;}
+[class*="am-u-"] {padding-left:0rem;padding-right:0rem;}
+.am-thumbnails {margin-left: 0rem;margin-right: 0rem;}
+.am-thumbnail {margin-bottom:0rem;}
+.am-thumbnails > li {padding: 0rem 0rem 0rem 0rem;}
+img{width:100%;}
+.slideall{background:#fff ;}
+.smallnav img,.smallnav a,.am-g.smallnav {border:none;}
+.e-price{color:red; font-size:14px;}
+.method3 img{border:none;}
+.method3 li{border:none;margin-bottom:10px;}
+dt + dd {margin-top: 0;}
+.am-slider-default{margin-bottom: 0px;}
+/*轮播图按钮*/
+.banner,.bannerTwo{margin-top:55px ;}
+.am-slider-default .am-control-nav {width: 100%;position: absolute;bottom: 15px;text-align: center;}
+.am-u-sm-3 {text-align:center;}
+.am-control-nav li { float:none;}
+.am-slider-default .am-direction-nav{ opacity: 0;}
+/*手机专享*/
+.smallnav{padding:10px 0px; font-size:12px;}
+.smallnav img{max-width:40px;}
+
+#navOpen{padding:0px 0px;}
+.list .word{display: none;}
+.last{border-right:0px !important ;}
+.advTip{display: none;}
+
+.shopNav{margin-top:5px; }
+.shopMain{margin:0px; }
+.shopTitle{background:#d2364c; width:100%; height:36px; line-height:36px; padding:0px; text-align:center; overflow:hidden; margin-top:4px; }
+.shopTitle a{color:#fff; font-size:14px; font-weight:600; }
+.shopMain li{padding:4px; }
+.shopMain .pro-image-frame{width:100%; padding:0px; border:1px solid #EEE; }
+.shopMain .pro-image{width:100%; height:0px; padding-bottom:100%; overflow:hidden; }
+.shopMain .pro-title{width:100%; margin-top:2px; height:32px; overflow:hidden; }
+
+.flood li {width: 50%;float: left;text-align: center;}

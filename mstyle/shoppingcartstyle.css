@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+input[type="text"]{-webkit-appearance:none;appearance:none;outline:none;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+
+.content-box{overflow:hidden; width:100%;max-width: 1000px;margin: 0px auto; margin-top:55px; }
+.content-box .no-item {width:90%; text-align:center; }
+/*主体*/
+.item-content{width:100%;overflow: hidden;position: relative; padding-bottom:15px;border-top:#F5F5F5 1px solid;}
+.item-content .td {float: left;}
+/*商品信息*/
+.td.td-item{float:left;width:100%;padding-left:0px ;}
+/*图片*/
+.td-item .item-info {margin: -3px 0px 0px 91px;}
+.item-content .item-pic a {text-align: center;}
+.item-content .item-pic {width:80px; height:80px; border: 1px solid #EEE; float: left;overflow: hidden;margin-top:20px;margin-left:3px;}	
+.td-item .item-basic-info { height:40px; margin-top:20px; text-align:left; font-weight:600; }
+/*规格*/
+.td.td-info{position: absolute;left:0px;top:55px;width:100%;overflow: hidden;padding-left:90px;line-height: 16px;}
+.td.td-info .sku-line {float:left;color: #9C9C9C;overflow: hidden;}
+/*数量*/
+.td.td-amount{position: absolute;left:0px;bottom:10px;width:100%;overflow: hidden;padding-left:90px;line-height: 16px;}
+.td.td-amount .sl {float:left; padding:0px; }
+.td.td-amount .sl .min{display:inline-block; border:1px solid #ddd; background-color:#ffe; font-size:16px; padding:0px 0px 4px 0px; width:30px; height:30px; line-height:26px; }
+.td.td-amount .sl .add{display:inline-block; border:1px solid #ddd; background-color:#ffe; font-size:16px; padding:0px 0px 2px 0px; width:30px; height:30px; line-height:28px; }
+.td.td-amount .sl input.text_box{border:1px solid #ddd; font-size:12px; padding:0px; width:40px; height:30px; line-height:30px; text-align:center; }
+.td.td-amount .sl .del{display:inline-block; border:1px solid #ddd; background-color:#fee; font-size:12px; padding:0px; width:50px; height:30px; line-height:30px; margin-left:10px;}
+
+.sub-total {width:100%; overflow: hidden; border-top:#F5F5F5 1px solid; padding:0px 10px 10px 0px; }
+.sub-total .member { font-size:12px; padding:5px 0px 0px 10px; }
+.sub-total .sub-price {width:100%; text-align:right; font-size:14px; padding-top:15px; }
+.sub-total .discount-price {width:100%; text-align:right;  font-size:14px; font-weight:600; padding-top:5px; }
+
+.customer_details{margin-top:10px; margin-bottom:50px; }
+.customer_details .details_title{background:#d2364c; color:#fff; display:block; width:100%; height:36px; line-height:36px; padding:0px; text-align:center; font-size:14px; font-weight:600; }
+.customer_details .details_row{width:100%; margin-top:10px; text-align:center; }
+.customer_details .details_row .input_common{width:90%; height:30px; line-height:30px; text-indent:2px; }
+.customer_details .details_row .textarea_common{width:90%; height:60px; text-indent:2px; }
+
+.float-bar-wrapper{position:fixed; overflow:hidden; right:0px; bottom:45px; width:100%; background:#fff; border-top:1px solid #e5e5e5; }
+.price-sum{overflow:hidden; float:right; padding-right:6px; }
+.price-sum .price { color: #F40;font-weight: 400; font-size:18px; height:38px; line-height: 38px;vertical-align: middle; }
+.btn-area{float:right; width:80px;text-decoration: none; text-align: center;}
+.btn-submit{display:inline-block; width:100%; height:38px; line-height:38px; font-size:16px; background-color:#F40; color: #fff; border:0px; border-radius:0px; }

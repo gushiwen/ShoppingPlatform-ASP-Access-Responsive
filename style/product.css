@@ -1,0 +1,74 @@
+/*=Library*/
+/*=商品详细标签
+=============================================================================================*/
+#tabs{
+	background:url(../../images/tabsepbg.gif) repeat-x 0 1px;
+	padding-left:15px;
+
+}
+#tabs a{
+	display:block;
+	float:left;
+	background:url(../../images/tabs_common.gif);
+	width:107px;
+	height:17px;
+	color:#666;
+	padding:4px 5px;
+	text-align:center;
+}
+#tabs a.current{
+	display:block;
+	background:url(../../images/tabs_on.gif) 0 0 no-repeat;
+	color:#000;
+	font-size:14px;
+	font-weight:700;
+	margin-bottom:-4px;
+	height:28px;
+	margin-top:-8px;
+	padding-top:6px;
+}
+#container{
+	clear:both;
+	color:#000;
+	padding-top:20px;
+	
+}
+#container .tabcontent{
+	display:none;
+}
+.GoodsDetailsWarp{/*外层*/
+	clear:both;
+	text-align:left;
+	margin-bottom:20px;
+}
+.GoodsCommentsWrap{
+	margin-bottom:20px;
+	color:#000;
+}
+.GoodsCommentsWrap .info{
+	padding:6px;
+	border:1px solid #ccc;
+	position:relative;
+	margin-bottom:6px;
+	background:#f3f3f3;
+	color:#000;
+}
+.GoodsCommentsWrap .info table td{
+
+	color:#000;
+}
+.GoodsCommentsWrap .starscomments{
+	border:1px solid #ccc;
+	border-collapse:collapse;
+}
+.GoodsCommentsWrap .starscomments th,
+.GoodsCommentsWrap .starscomments td{
+	border:1px solid #ccc;
+	padding:2px 8px;
+	
+}
+.GoodsCommentsWrap .starscomments th{
+	background:#f2f2f2;
+	font-weight:700;
+	white-space:nowrap;
+}

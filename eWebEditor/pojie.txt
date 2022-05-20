@@ -1,0 +1,9 @@
+asp/i.asp line 269
+admin/private.asp line 333
+
+Function CheckLicense()
+CheckLicense = True
+End Function
+
+asp/i.asp line 148 '复制安装控件，" & aTmpStyle(17) & "改为0
+ret = ret & "config.AutoDetectPaste = ""0"";" & Vbcrlf 

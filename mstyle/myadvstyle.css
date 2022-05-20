@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+/*通用格式*/
+*, *:after, *:before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box; }
+/*任何标签、包括它前面、后面生成的内容都不要影响盒子的边框*/
+ul, li, ol {list-style: none;}
+dl,dt,dd{ margin:0px auto; padding:0px;}
+p {margin: 0 0 .3rem 0; font-size:14px; }
+[class*="am-u-"] {padding-left:0rem;padding-right:0rem;}
+
+img{ width:100%;}
+a:hover {color:#000000;}
+
+.listMain{margin-top:55px;}
+.product-content{margin:0px 5px;}
+.product-content .pro-image-frame{width:100%; padding:0px; border:1px solid #EEE; }
+.product-content .pro-image{width:100%; height:0px; padding-bottom:100%; overflow:hidden; }
+.product-content .pro-title{margin-top:2px; }
+.product-content .pro-info{margin-top:2px; }
+.product-content .pro-info .pro-info-text{display:inline-block; }
+.product-content .pro-info .pro-info-btn{display:inline-block; color:#888; background-color:#ffe; text-overflow:ellipsis; padding:0px 4px; border:1px solid #e6e6e6; text-align:center; margin-left:10px; }
+
+.i-pic.limit {margin:5px;overflow: hidden;position: relative;cursor: pointer;}
+.number.fl{position: absolute;bottom:5px;right:5px ;}
+.price.fl{padding: 0px;}
+.limit p.title,.i-pic.check p.title{padding:0px 5px;margin:5px 0px;overflow:hidden;height:18px;line-height:18px;}
+.i-pic .cartbtn{margin-left:10px; margin-bottom:6px; }
+
+.listMain .details_title{background:#d2364c; color:#fff; display:block; width:100%; height:36px; line-height:36px; padding:0px; text-align:center; font-size:14px; font-weight:600; }
+.listMain .details_row{width:100%; margin-top:10px; text-align:center; }
+.listMain .details_row .text{width:100%; padding-left:6px; text-align:left; overflow:hidden; }
+
+.listMain .details_row .input_recommend{width:60%; height:30px; line-height:30px; text-indent:2px; margin:2px 2px; }
+.listMain .details_row .btn_recommend{display:inline-block; width:36%; height:30px; line-height:30px; color:#db3e54; background-color:#fee; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; padding:0px; margin:2px 2px; border:1px solid #e6e6e6; text-align:center; border-radius:5px; }
+.listMain .details_row .btn_advdayslist{display:inline-block; width:48%; height:30px; line-height:30px; color:#888; background-color:#ffe; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; padding:0px; margin:2px 2px; border:1px solid #e6e6e6; text-align:center; border-radius:5px; }
+
+.listMain .details_row .input_common{width:90%; height:30px; line-height:30px; text-indent:2px; }
+.listMain .details_row .textarea_common{width:90%; height:60px; text-indent:2px; }
+.listMain .details_row .btn_submit{display:inline-block; width:98%; height:30px; line-height:30px; font-weight:bold; color:#db3e54; background-color:#fee; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; padding:0px; border:1px solid #e6e6e6; text-align:center; border-radius:5px; }
+.listMain .details_row .btn_common{display:inline-block; width:90%; height:30px; line-height:30px; color:#888; background-color:#ffe; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; padding:0px; border:1px solid #e6e6e6; text-align:center; border-radius:5px; }

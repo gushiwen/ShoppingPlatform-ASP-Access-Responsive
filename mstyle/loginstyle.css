@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+input[type="text"]{-webkit-appearance:none;appearance:none;outline:none;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+
+.account_details{margin-top:55px; }
+.account_details .details_title{background:#d2364c; color:#fff; display:block; width:100%; height:36px; line-height:36px; padding:0px; text-align:center; font-size:14px; font-weight:600; }
+.account_details .details_row{width:100%; margin-top:10px; text-align:center; }
+.account_details .details_row .input_common{width:90%; height:30px; line-height:30px; text-indent:2px; }
+.account_details .details_row .input_verify{width:59%; height:30px; line-height:30px; text-indent:2px; }
+.account_details .details_row .verifycode{width:30%; display:inline-block; height:30px; line-height:30px; }
+.account_details .details_row .btn_submit{display:inline-block; width:90%; height:30px; line-height:30px; font-weight:bold; color:#db3e54; background-color:#fee; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; padding:0px; border:1px solid #e6e6e6; text-align:center; border-radius:5px; }
+.account_details .details_row .btn_common{display:inline-block; width:90%; height:30px; line-height:30px; color:#888; background-color:#ffe; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; padding:0px; border:1px solid #e6e6e6; text-align:center; border-radius:5px; }

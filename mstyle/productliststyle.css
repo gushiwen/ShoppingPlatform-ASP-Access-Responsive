@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+/*通用格式*/
+*, *:after, *:before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box; }
+/*任何标签、包括它前面、后面生成的内容都不要影响盒子的边框*/
+ul, li, ol {list-style: none;}
+dl,dt,dd{ margin:0px auto; padding:0px;}
+p {margin: 0 0 .3rem 0; font-size:14px; }
+[class*="am-u-"] {padding-left:0rem;padding-right:0rem;}
+
+img{ width:100%;}
+a:hover {color:#000000;}
+.price{color: #e4393c;font-weight: 600;}
+
+.listMain{margin-top:55px;}
+.theme-popover {margin-left:6px; font-weight:600; }
+.product-content{margin:0px 5px;}
+.product-content .pro-image-frame{width:100%; padding:0px; border:1px solid #EEE; }
+.product-content .pro-image{width:100%; height:0px; padding-bottom:100%; overflow:hidden; }
+.product-content .pro-title{margin-top:2px; }
+
+.i-pic.limit {margin:5px;overflow: hidden;position: relative;cursor: pointer;}
+.number.fl{position: absolute;bottom:5px;right:5px ;}
+.price.fl{padding: 0px;}
+.limit p.title,.i-pic.check p.title{padding:0px 5px;margin:5px 0px;overflow:hidden;height:18px;line-height:18px;}
+.i-pic .cartbtn{margin-left:10px; margin-bottom:6px; }
+
+.listMain .btn_box{width:100%; padding:0px; text-align:center; }
+.listMain .btn_box .btn_submit{display:inline-block; width:90%; height:30px; line-height:30px; font-weight:bold; color:#db3e54; background-color:#fee; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; padding:0px; border:1px solid #e6e6e6; text-align:center; border-radius:5px; }
+
+/*分页*/	
+.am-pagination{margin-bottom:0px;}
+.am-pagination li{float:none;}

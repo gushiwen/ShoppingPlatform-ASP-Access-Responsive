@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+input[type="text"]{-webkit-appearance:none;appearance:none;outline:none;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+
+.account_details{margin-top:55px; }
+.account_details .details_title{background:#d2364c; color:#fff; display:block; width:100%; height:36px; line-height:36px; padding:0px; text-align:center; font-size:14px; font-weight:600; }
+.account_details .details_row{width:100%; margin-top:10px; text-align:center; }
+.account_details .details_row .text{display:inline-block; width:90%; text-align:left; height:30px; line-height:30px; vertical-align:middle; overflow:hidden; }
+
+.account_details .details_row .category{display:inline-block; width:90%; height:30px; line-height:30px; text-align:left; vertical-align:middle; }
+.account_details .details_row .input_category{display:inline-block; width:80%; height:30px; line-height:30px; text-indent:2px; }
+.account_details .details_row .btn_category{display:inline-block; width:16%; height:30px; line-height:30px; color:#888; background-color:#ffe; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; padding:0px; border:1px solid #e6e6e6; text-align:center; border-radius:5px; }
+
+.account_details .details_row .image_box{display:inline-block; width:80px; height:100px; line-height:100px; text-align:center; vertical-align:top; margin-right:2px;  border:1px solid #eee; }
+.account_details .details_row .btn_delete{display:block; width:78px; height:20px; line-height:20px; text-align:center; }
+
+.account_details .details_row .upload{display:inline-block; width:90%; height:30px; line-height:30px; text-align:left; vertical-align:middle; }
+.account_details .details_row .input_upload{display:inline-block; height:30px; line-height:30px; text-indent:2px; padding-right:6px;  margin-top:-24px; vertical-align:middle; }
+.account_details .details_row .btn_upload{display:inline-block; width:16%; height:30px; line-height:30px; }
+
+.account_details .details_row .ul_advdays{list-style: none; display:inline-block; width:90%; padding:0px; }
+.account_details .details_row .li_advdays{display:inline-block; float:left; height:30px; line-height:30px; margin-right:10px; }
+.account_details .details_row .input_advdays{vertical-align:middle; margin-top:-2px; }
+
+.account_details .details_row .input_common{width:90%; height:30px; line-height:30px; text-indent:2px; }
+.account_details .details_row .textarea_common{width:90%; height:60px; text-indent:2px; }
+.account_details .details_row .btn_submit{display:inline-block; width:90%; height:30px; line-height:30px; font-weight:bold; color:#db3e54; background-color:#fee; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; padding:0px; border:1px solid #e6e6e6; text-align:center; border-radius:5px; }
+.account_details .details_row .btn_common{display:inline-block; width:90%; height:30px; line-height:30px; color:#888; background-color:#ffe; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; padding:0px; border:1px solid #e6e6e6; text-align:center; border-radius:5px; }
